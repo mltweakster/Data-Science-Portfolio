@@ -109,7 +109,7 @@
 **5. Enhanced Productivity**: CICD practices improve efficiency, reduce manual errors, and accelerate deployment cycles.
 
 
-## [Project 4: Flight Price Prediction using Amazon SageMaker](https://github.com/sumitwatkar/Text-to-Speech-Generation-using-CICD)
+## [Project 4: Flight Price Prediction using Amazon SageMaker](https://github.com/sumitwatkar/Flight-Price-Prediction-using-Amazon-SageMaker)
 
 ### Overview:
 
