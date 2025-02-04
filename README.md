@@ -1,6 +1,87 @@
 # Data Science Portfolio by Sumit Watkar
 
-## [Project 1: Text to Speech Generation using CICD](https://github.com/sumitwatkar/Text-to-Speech-Generation-using-CICD)
+## [Project 1: Sentiment Analysis](https://github.com/mltweakster/Sentiment-Analysis)
+
+### **Overview:**
+- The YouTube Comment Sentiment Analysis project is an end-to-end machine learning application designed to classify the sentiment of YouTube video comments. By leveraging machine learning techniques, the project enables real-time sentiment prediction and provides insightful analytics on comment trends. 
+
+- The application includes a Flask-based inference endpoint and additional APIs for sentiment analysis insights. The development process integrates robust experimentation, tracking, and pipeline reproducibility using MLFlow and DVC, ensuring a streamlined and reproducible workflow.  
+
+### **Methodologies:**
+
+**1. Sentiment Analysis Development:** Built a machine learning model to classify YouTube comments using text vectorization (TfidfVectorizer) and experimented with multiple models, selecting HistGradientBoostingClassifier for optimal performance.  
+
+**2. API Development:** Developed a Flask-based inference endpoint for real-time sentiment prediction and additional API endpoints to provide analytics on comment sentiments.  
+
+**3. Experiment Tracking:** Integrated MLFlow to track model performance, hyperparameter tuning, and experiment logging for a structured development process.  
+
+**4. Pipeline Reproducibility:** Implemented DVC (Data Version Control) to manage datasets, ensure reproducibility, and maintain version control of ML pipelines.  
+
+### **Technologies and Tools Used:**  
+
+* **Machine Learning & NLP:** Numpy, Pandas, scikit-learn, LightGBMClassifier, TfidfVectorizer
+* **API Framework:** Flask
+* **Experiment Tracking:** MLFlow
+* **Pipeline Reproducibility:** DVC
+* **Containerization**: Docker
+* **Version Control & Deployment:** Git, GitHub, Github Actions, Amazon EC2, Amazon ECR
+
+### **Outcomes:**
+
+**1. Robust Sentiment Prediction:** A well-optimized machine learning model capable of classifying YouTube comment sentiments accurately.  
+
+**2. Scalable API Solution:** Flask-based inference endpoint ensures real-time sentiment classification with low latency.  
+
+**3. Data-Driven Insights:** Additional API endpoints provide analytics and trends on comment sentiments, aiding content creators and researchers.  
+
+**4. Reproducibility and Experimentation:** MLFlow and DVC streamline experiment tracking and pipeline reproduction, enhancing model versioning and reproducibility.  
+
+**5. Efficient Development Lifecycle:** The integration of MLFlow and DVC reduces errors, enhances model tracking, and ensures structured development.  
+
+
+## [Project 2: Delivery Time Prediction](https://github.com/mltweakster/Delivery-Time-Prediction)
+
+### **Overview:**  
+
+- The Delivery Time Prediction project is a machine learning-based application designed to estimate delivery times for orders based on various factors such as distance, traffic conditions, weather, and historical data. This project helps logistics companies, e-commerce platforms, and food delivery services improve their estimated delivery times, optimize routes, and enhance customer satisfaction. 
+
+- The application includes a FastAPI-based inference endpoint and additional APIs for analytics and insights. The development process integrates experiment tracking and pipeline reproducibility using MLFlow and DVC.  
+
+### **Methodologies:**  
+
+**1. Predictive Model Development:** Built a machine learning model to predict delivery times using historical data, traffic conditions, and other relevant factors. Experimented with multiple models and selected the best-performing algorithm.  
+
+**2. API Development:** Developed a FastAPI-based inference endpoint for real-time delivery time predictions and additional API endpoints to provide insights into delivery trends and performance.  
+
+**3. Feature Engineering & Optimization:** Implemented feature engineering techniques such as distance calculations, weather impact factors, and traffic analysis to improve prediction accuracy.  
+
+**4. Experiment Tracking:** Integrated MLFlow for model performance tracking, hyperparameter tuning, and logging experiments to ensure structured model development.  
+
+**5. Pipeline Reproducibility:** Utilized DVC (Data Version Control) to manage datasets, version ML pipelines, and ensure reproducibility in model training and evaluation.  
+
+### **Technologies and Tools Used:**  
+
+- **Machine Learning & Data Processing:** NumPy, Pandas, Scikit-learn, LightGBMClassifier
+- **API Framework:** FastAPI
+- **Experiment Tracking:** MLFlow
+- **Pipeline Reproducibility:** DVC
+- **Containerization**: Docker
+- **Version Control & Deployment:** Git, GitHub, Github Actions, Amazon EC2, Amazon ECR
+
+### **Outcomes:** 
+
+**1. Accurate Delivery Time Estimation:** A machine learning model capable of predicting delivery times with high accuracy.  
+
+**2. Real-time Predictions:** FastAPI-based inference endpoint enables quick delivery time estimations for end-users and businesses.  
+
+**3. Data-Driven Insights:** Additional API endpoints provide insights into delivery trends, helping businesses optimize logistics and reduce delays.  
+
+**4. Reproducibility and Experimentation:** MLFlow and DVC streamline experiment tracking, pipeline reproduction, and model versioning.  
+
+**5. Enhanced Operational Efficiency:** Businesses can improve logistics, optimize delivery routes, and enhance customer satisfaction with more accurate time predictions.  
+
+
+## [Project 3: Text to Speech Generation using CICD](https://github.com/sumitwatkar/Text-to-Speech-Generation-using-CICD)
 
 ### Overview:
 
@@ -39,7 +120,7 @@
 **5. Enhanced Productivity**: CICD practices improve efficiency, reduce manual errors, and accelerate deployment cycles.
 
 
-## [Project 2: Flight Price Prediction using Amazon SageMaker](https://github.com/sumitwatkar/Flight-Price-Prediction-using-Amazon-SageMaker)
+## [Project 4: Flight Price Prediction using Amazon SageMaker](https://github.com/sumitwatkar/Flight-Price-Prediction-using-Amazon-SageMaker)
 
 ### Overview:
 
@@ -79,7 +160,7 @@
 *[Web App Link](https://flight-price-prediction-using-amazon-sagemaker.streamlit.app/)*
 
 
-## [Project 3: ATS Resume Checker using Google Gemini](https://github.com/sumitwatkar/ATS-Resume-Checker-using-Google-Gemini)
+## [Project 5: ATS Resume Checker using Google Gemini](https://github.com/sumitwatkar/ATS-Resume-Checker-using-Google-Gemini)
 
 ### Overview:
 
