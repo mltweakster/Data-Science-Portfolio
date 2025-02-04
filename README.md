@@ -3,7 +3,7 @@
 ## [Project 1: Sentiment Analysis](https://github.com/mltweakster/Sentiment-Analysis)
 
 ### **Overview:**
-- The YouTube Comment Sentiment Analysis project is an end-to-end machine learning application designed to classify the sentiment of YouTube video comments. By leveraging machine learning techniques, the project enables real-time sentiment prediction and provides insightful analytics on comment trends. 
+- The Sentiment Analysis project is an end-to-end machine learning application designed to classify the sentiment of YouTube video comments. By leveraging machine learning techniques, the project enables real-time sentiment prediction and provides insightful analytics on comment trends. 
 
 - The application includes a Flask-based inference endpoint and additional APIs for sentiment analysis insights. The development process integrates robust experimentation, tracking, and pipeline reproducibility using MLFlow and DVC, ensuring a streamlined and reproducible workflow.  
 
