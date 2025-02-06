@@ -80,7 +80,7 @@
 
 **5. Enhanced Operational Efficiency:** Businesses can improve logistics, optimize delivery routes, and enhance customer satisfaction with more accurate time predictions.  
 
-![Pipeline](https://github.com/user-attachments/assets/9484315e-3de7-4fe7-8d96-0b621c7b97a8)
+![pipeline](https://github.com/user-attachments/assets/f3391736-e0a8-45cc-806c-2d87f3e21af3)
 
 
 ## [Project 3: Text to Speech Generation using CICD](https://github.com/sumitwatkar/Text-to-Speech-Generation-using-CICD)
