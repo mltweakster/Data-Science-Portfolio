@@ -1,45 +1,7 @@
 # Data Science Portfolio by Sumit Watkar
 
-## [Project 1: Sentiment Analysis](https://github.com/mltweakster/Sentiment-Analysis)
 
-### **Overview:**
-- The Sentiment Analysis project is an end-to-end machine learning application designed to classify the sentiment of YouTube video comments. By leveraging machine learning techniques, the project enables real-time sentiment prediction and provides insightful analytics on comment trends. 
-
-- The application includes a Flask-based inference endpoint and additional APIs for sentiment analysis insights. The development process integrates robust experimentation, tracking, and pipeline reproducibility using MLFlow and DVC, ensuring a streamlined and reproducible workflow.  
-
-### **Methodologies:**
-
-**1. Sentiment Analysis Development:** Built a machine learning model to classify YouTube comments using text vectorization (TfidfVectorizer) and experimented with multiple models, selecting **LightGBMClassifier** for optimal performance.
-
-**2. Experiment Tracking:** Integrated MLFlow to track model performance, hyperparameter tuning, and experiment logging for a structured development process.
-
-**3. Pipeline Reproducibility:** Implemented DVC (Data Version Control) to manage datasets, ensure reproducibility, and maintain version control of ML pipelines.
-
-**4. API Development:** Developed a Flask-based inference endpoint for real-time sentiment prediction and additional API endpoints to provide analytics on comment sentiments.
-
-### **Technologies and Tools Used:** 
-
-* **Machine Learning & NLP:** Numpy, Pandas, scikit-learn, LightGBMClassifier, TfidfVectorizer
-* **Experiment Tracking:** MLFlow
-* **Pipeline Reproducibility:** DVC
-* **API Framework:** Flask
-* **Containerization**: Docker
-* **Version Control & Deployment:** Git, GitHub, Github Actions, Amazon EC2, Amazon ECR
-
-### **Outcomes:**
-
-**1. Robust Sentiment Prediction:** A well-optimized machine learning model capable of classifying YouTube comment sentiments accurately.  
-
-**2. Scalable API Solution:** Flask-based inference endpoint ensures real-time sentiment classification with low latency.  
-
-**3. Data-Driven Insights:** Additional API endpoints provide analytics and trends on comment sentiments, aiding content creators and researchers.  
-
-**4. Reproducibility and Experimentation:** MLFlow and DVC streamline experiment tracking and pipeline reproduction, enhancing model versioning and reproducibility.  
-
-**5. Efficient Development Lifecycle:** The integration of MLFlow and DVC reduces errors, enhances model tracking, and ensures structured development.  
-
-
-## [Project 2: Delivery Time Prediction](https://github.com/mltweakster/Delivery-Time-Prediction)
+## [Project 1: Delivery Time Prediction](https://github.com/mltweakster/Delivery-Time-Prediction)
 
 ### **Overview:**  
 
@@ -81,6 +43,45 @@
 **5. Enhanced Operational Efficiency:** Businesses can improve logistics, optimize delivery routes, and enhance customer satisfaction with more accurate time predictions.  
 
 ![pipeline](https://github.com/user-attachments/assets/f3391736-e0a8-45cc-806c-2d87f3e21af3)
+
+
+## [Project 2: Sentiment Analysis](https://github.com/mltweakster/Sentiment-Analysis)
+
+### **Overview:**
+- The Sentiment Analysis project is an end-to-end machine learning application designed to classify the sentiment of YouTube video comments. By leveraging machine learning techniques, the project enables real-time sentiment prediction and provides insightful analytics on comment trends. 
+
+- The application includes a Flask-based inference endpoint and additional APIs for sentiment analysis insights. The development process integrates robust experimentation, tracking, and pipeline reproducibility using MLFlow and DVC, ensuring a streamlined and reproducible workflow.  
+
+### **Methodologies:**
+
+**1. Sentiment Analysis Development:** Built a machine learning model to classify YouTube comments using text vectorization (TfidfVectorizer) and experimented with multiple models, selecting **LightGBMClassifier** for optimal performance.
+
+**2. Experiment Tracking:** Integrated MLFlow to track model performance, hyperparameter tuning, and experiment logging for a structured development process.
+
+**3. Pipeline Reproducibility:** Implemented DVC (Data Version Control) to manage datasets, ensure reproducibility, and maintain version control of ML pipelines.
+
+**4. API Development:** Developed a Flask-based inference endpoint for real-time sentiment prediction and additional API endpoints to provide analytics on comment sentiments.
+
+### **Technologies and Tools Used:** 
+
+* **Machine Learning & NLP:** Numpy, Pandas, scikit-learn, LightGBMClassifier, TfidfVectorizer
+* **Experiment Tracking:** MLFlow
+* **Pipeline Reproducibility:** DVC
+* **API Framework:** Flask
+* **Containerization**: Docker
+* **Version Control & Deployment:** Git, GitHub, Github Actions, Amazon EC2, Amazon ECR
+
+### **Outcomes:**
+
+**1. Robust Sentiment Prediction:** A well-optimized machine learning model capable of classifying YouTube comment sentiments accurately.  
+
+**2. Scalable API Solution:** Flask-based inference endpoint ensures real-time sentiment classification with low latency.  
+
+**3. Data-Driven Insights:** Additional API endpoints provide analytics and trends on comment sentiments, aiding content creators and researchers.  
+
+**4. Reproducibility and Experimentation:** MLFlow and DVC streamline experiment tracking and pipeline reproduction, enhancing model versioning and reproducibility.  
+
+**5. Efficient Development Lifecycle:** The integration of MLFlow and DVC reduces errors, enhances model tracking, and ensures structured development.  
 
 
 ## [Project 3: Text to Speech Generation using CICD](https://github.com/sumitwatkar/Text-to-Speech-Generation-using-CICD)
