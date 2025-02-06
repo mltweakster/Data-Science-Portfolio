@@ -9,20 +9,20 @@
 
 ### **Methodologies:**
 
-**1. Sentiment Analysis Development:** Built a machine learning model to classify YouTube comments using text vectorization (TfidfVectorizer) and experimented with multiple models, selecting HistGradientBoostingClassifier for optimal performance.  
+**1. Sentiment Analysis Development:** Built a machine learning model to classify YouTube comments using text vectorization (TfidfVectorizer) and experimented with multiple models, selecting **LightGBMClassifier** for optimal performance.
 
-**2. API Development:** Developed a Flask-based inference endpoint for real-time sentiment prediction and additional API endpoints to provide analytics on comment sentiments.  
+**2. Experiment Tracking:** Integrated MLFlow to track model performance, hyperparameter tuning, and experiment logging for a structured development process.
 
-**3. Experiment Tracking:** Integrated MLFlow to track model performance, hyperparameter tuning, and experiment logging for a structured development process.  
+**3. Pipeline Reproducibility:** Implemented DVC (Data Version Control) to manage datasets, ensure reproducibility, and maintain version control of ML pipelines.
 
-**4. Pipeline Reproducibility:** Implemented DVC (Data Version Control) to manage datasets, ensure reproducibility, and maintain version control of ML pipelines.  
+**4. API Development:** Developed a Flask-based inference endpoint for real-time sentiment prediction and additional API endpoints to provide analytics on comment sentiments.
 
-### **Technologies and Tools Used:**  
+### **Technologies and Tools Used:** 
 
 * **Machine Learning & NLP:** Numpy, Pandas, scikit-learn, LightGBMClassifier, TfidfVectorizer
-* **API Framework:** Flask
 * **Experiment Tracking:** MLFlow
 * **Pipeline Reproducibility:** DVC
+* **API Framework:** Flask
 * **Containerization**: Docker
 * **Version Control & Deployment:** Git, GitHub, Github Actions, Amazon EC2, Amazon ECR
 
@@ -49,24 +49,24 @@
 
 ### **Methodologies:**  
 
-**1. Predictive Model Development:** Built a machine learning model to predict delivery times using historical data, traffic conditions, and other relevant factors. Experimented with multiple models and selected the best-performing algorithm.  
+**1. Feature Engineering & Optimization:** Implemented feature engineering techniques such as distance calculations, weather impact factors, and traffic analysis to improve prediction accuracy. 
 
-**2. API Development:** Developed a FastAPI-based inference endpoint for real-time delivery time predictions and additional API endpoints to provide insights into delivery trends and performance.  
+**2. Predictive Model Development:** Built a **StackingRegressor** to predict delivery times, combining **LightGBM** and **Random Forest** as base learners with **Linear Regression** as the meta-learner.
 
-**3. Feature Engineering & Optimization:** Implemented feature engineering techniques such as distance calculations, weather impact factors, and traffic analysis to improve prediction accuracy.  
+**3. Experiment Tracking:** Optimized model performance through rigorous experimentation, integrated MLFlow for model performance tracking, hyperparameter tuning, and logging experiments to ensure structured model development.  
 
-**4. Experiment Tracking:** Integrated MLFlow for model performance tracking, hyperparameter tuning, and logging experiments to ensure structured model development.  
+**4. Pipeline Reproducibility:** Utilized DVC (Data Version Control) to manage datasets, version ML pipelines, and ensure reproducibility in model training and evaluation. 
 
-**5. Pipeline Reproducibility:** Utilized DVC (Data Version Control) to manage datasets, version ML pipelines, and ensure reproducibility in model training and evaluation.  
+**5. API Development:** Developed a FastAPI-based inference endpoint for real-time delivery time predictions and additional API endpoints to provide insights into delivery trends and performance. 
 
-### **Technologies and Tools Used:**  
+### **Technologies and Tools Used:**
 
-- **Machine Learning & Data Processing:** NumPy, Pandas, Scikit-learn, LightGBMClassifier
-- **API Framework:** FastAPI
-- **Experiment Tracking:** MLFlow
-- **Pipeline Reproducibility:** DVC
-- **Containerization**: Docker
-- **Version Control & Deployment:** Git, GitHub, Github Actions, Amazon EC2, Amazon ECR
+* **Machine Learning & Data Processing:** NumPy, Pandas, Scikit-learn, LightGBM, Random Forest, Linear Regression
+* **Experiment Tracking:** MLFlow
+* **Pipeline Reproducibility:** DVC
+* **API Framework:** FastAPI
+* **Containerization**: Docker
+* **Version Control & Deployment:** Git, GitHub, Github Actions, Amazon EC2, Amazon ECR
 
 ### **Outcomes:** 
 
@@ -79,6 +79,8 @@
 **4. Reproducibility and Experimentation:** MLFlow and DVC streamline experiment tracking, pipeline reproduction, and model versioning.  
 
 **5. Enhanced Operational Efficiency:** Businesses can improve logistics, optimize delivery routes, and enhance customer satisfaction with more accurate time predictions.  
+
+![Pipeline](https://github.com/user-attachments/assets/9484315e-3de7-4fe7-8d96-0b621c7b97a8)
 
 
 ## [Project 3: Text to Speech Generation using CICD](https://github.com/sumitwatkar/Text-to-Speech-Generation-using-CICD)
