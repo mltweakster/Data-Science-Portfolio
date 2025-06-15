@@ -1,7 +1,59 @@
 # Data Science Portfolio by Sumit Watkar
 
+## [Project 1: Hotel Reservation Prediction](https://github.com/mltweakster/Hotel-Reservation-Prediction)
 
-## [Project 1: Delivery Time Prediction](https://github.com/mltweakster/Delivery-Time-Prediction)
+### **Overview:**
+
+The **Hotel Reservation Prediction** project is a machine learning system that forecasts whether a hotel booking will be canceled. It enables better inventory planning, reduces revenue leakage, and supports intelligent overbooking strategies.
+
+> 🔗 **[Live App URL](https://hrp-552900362680.us-central1.run.app/)**
+
+### **Technologies and Tools Used:**
+
+| Category             | Tools/Tech                                        |
+|----------------------|---------------------------------------------------|
+| ML & Processing      | Python, Pandas, Scikit-learn                      |
+| Modeling             | Random Forest, Light Gradient Boosting Machine    |
+| Experiment Tracking  | MLflow                                            |
+| API & Serving        | Flask                                             |
+| CI/CD                | Jenkins, GitHub                                   |
+| Containerization     | Docker                                            |
+| Deployment           | Google Container Registry, Google Cloud Run       |
+
+### **MLflow Experiment Run:**
+
+The model was trained and tracked using **MLflow** with the following metrics and hyperparameters:
+
+![MLflow Experiment Run](https://github.com/mltweakster/Hotel-Reservation-Prediction/blob/main/research/mlflow-exp.png)
+
+### **Jenkins CI/CD Pipeline:**
+
+This project is integrated with a **CI/CD pipeline** using Jenkins:
+
+### **Pipeline Stages**:
+
+> 1. Clone GitHub Repository  
+> 2. Set up Python Virtual Environment  
+> 3. Install Dependencies  
+> 4. Build and Push Docker Image  
+> 5. Deploy to Google Cloud Run
+
+![Jenkins Pipeline](https://github.com/mltweakster/Hotel-Reservation-Prediction/blob/main/research/jenkins-cicd.png)
+
+### **Outcomes**
+
+- **Accurate Cancellation Prediction**
+- **Fully Automated CI/CD Pipeline**
+- **Cloud-native, Serverless Deployment**
+- **Portable, Dockerized App**
+- **Reproducible Experiments via MLflow**
+
+> ![Flask App Prediction](https://github.com/mltweakster/Hotel-Reservation-Prediction/blob/main/research/flask-app.png)
+
+---
+
+
+## [Project 2: Delivery Time Prediction](https://github.com/mltweakster/Delivery-Time-Prediction)
 
 ### **Overview:**  
 
@@ -44,8 +96,10 @@
 
 ![pipeline](https://github.com/user-attachments/assets/f3391736-e0a8-45cc-806c-2d87f3e21af3)
 
+---
 
-## [Project 2: Sentiment Analysis](https://github.com/mltweakster/Sentiment-Analysis)
+
+## [Project 3: Sentiment Analysis](https://github.com/mltweakster/Sentiment-Analysis)
 
 ### **Overview:**
 - The Sentiment Analysis project is an end-to-end machine learning application designed to classify the sentiment of YouTube video comments. By leveraging machine learning techniques, the project enables real-time sentiment prediction and provides insightful analytics on comment trends. 
@@ -83,8 +137,10 @@
 
 **5. Efficient Development Lifecycle:** The integration of MLFlow and DVC reduces errors, enhances model tracking, and ensures structured development.  
 
+---
 
-## [Project 3: Text to Speech Generation using CICD](https://github.com/sumitwatkar/Text-to-Speech-Generation-using-CICD)
+
+## [Project 4: Text to Speech Generation using CICD](https://github.com/sumitwatkar/Text-to-Speech-Generation-using-CICD)
 
 ### Overview:
 
@@ -122,8 +178,11 @@
 
 **5. Enhanced Productivity**: CICD practices improve efficiency, reduce manual errors, and accelerate deployment cycles.
 
+---
 
-## [Project 4: Flight Price Prediction using Amazon SageMaker](https://github.com/sumitwatkar/Flight-Price-Prediction-using-Amazon-SageMaker)
+
+## [Project 5: Flight Price Prediction using Amazon SageMaker](https://github.com/sumitwatkar/Flight-Price-Prediction-using-Amazon-SageMaker)
+
 
 ### Overview:
 
@@ -162,8 +221,10 @@
 
 *[Web App Link](https://flight-price-prediction-using-amazon-sagemaker.streamlit.app/)*
 
+---
 
-## [Project 5: ATS Resume Checker using Google Gemini](https://github.com/sumitwatkar/ATS-Resume-Checker-using-Google-Gemini)
+
+## [Project 6: ATS Resume Checker using Google Gemini](https://github.com/sumitwatkar/ATS-Resume-Checker-using-Google-Gemini)
 
 ### Overview:
 
@@ -183,3 +244,5 @@
 **2. Matching Percentage and Feedback**: The application provides a matching percentage that indicates the compatibility of the resume with the job description and a list of missing keywords from the resume.
 
 *[Web App Link](https://gemini-ats-resume-checker.streamlit.app/)*
+
+---
